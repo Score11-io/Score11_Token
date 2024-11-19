@@ -58,8 +58,8 @@ Solidity                         1             15             45             54
 ## Quickstart
 
 ```
-git clone https://github.com/Score11-io/Score11_Utility_Token.git
-cd Score11_Utility_Token
+git clone https://github.com/Score11-io/Score11_Token.git
+cd Score11_Token
 npm i
 ```
 
@@ -75,11 +75,11 @@ npx hardhat coverage
 
 ## Commit Hash
 
-0849a7c901dba3959a50176e4cea280b0778344b
+4c1500aafc857605f1fd1c2a4024f32f55dfc583
 
 ## Repo URL
 
-https://github.com/Score11-io/Score11_Utility_Token
+https://github.com/Score11-io/Score11_Token
 
 ## In scope vs out of scope contracts
 
