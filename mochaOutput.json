@@ -1,0 +1,574 @@
+{
+ "stats": {
+  "suites": 10,
+  "tests": 40,
+  "passes": 40,
+  "pending": 0,
+  "failures": 0
+ },
+ "tests": [
+  {
+   "title": "Should set the correct name",
+   "fullTitle": "SCORE11 Deployment Should set the correct name",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the correct symbol",
+   "fullTitle": "SCORE11 Deployment Should set the correct symbol",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the default Admin address as the default admin",
+   "fullTitle": "SCORE11 Deployment Should set the default Admin address as the default admin",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the pauser address as the pauser",
+   "fullTitle": "SCORE11 Deployment Should set the pauser address as the pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the maxTotalSupply to the 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the maxTotalSupply to the 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the initial total supply to 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the initial total supply to 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the balance of the owner to 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the balance of the owner to 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should pause and unpause the token",
+   "fullTitle": "SCORE11 Pausing Should pause and unpause the token",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 Pausing Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow pausing by new pauser",
+   "fullTitle": "SCORE11 Pausing Should allow pausing by new pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow pausing if role is revoked",
+   "fullTitle": "SCORE11 Pausing Should not allow pausing if role is revoked",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow unpausing by non-pauser",
+   "fullTitle": "SCORE11 Unpausing Should not allow unpausing by non-pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow unpausing by pauser",
+   "fullTitle": "SCORE11 Unpausing Should allow unpausing by pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow unpausing by new pauser",
+   "fullTitle": "SCORE11 Unpausing Should allow unpausing by new pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow unpausing if role is revoked",
+   "fullTitle": "SCORE11 Unpausing Should not allow unpausing if role is revoked",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should approve spender to spend tokens",
+   "fullTitle": "SCORE11 Approve Should approve spender to spend tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow approval when paused",
+   "fullTitle": "SCORE11 Approve Should allow approval when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow approval to the zero address",
+   "fullTitle": "SCORE11 Approve Should not allow approval to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer tokens",
+   "fullTitle": "SCORE11 Transfer Should transfer tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow transfer when unpaused",
+   "fullTitle": "SCORE11 Transfer Should allow transfer when unpaused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers to the zero address",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers from the zero address",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers from the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when sender has insufficient balance",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers when sender has insufficient balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer tokens from approved spender",
+   "fullTitle": "SCORE11 TransferFrom Should transfer tokens from approved spender",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 TransferFrom Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers to the zero address",
+   "fullTitle": "SCORE11 TransferFrom Should not allow transfers to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow token holders to burn their tokens",
+   "fullTitle": "SCORE11 Burning Should allow token holders to burn their tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent burning more tokens than balance",
+   "fullTitle": "SCORE11 Burning Should prevent burning more tokens than balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow burning when paused",
+   "fullTitle": "SCORE11 Burning Should not allow burning when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow burning when unpaused",
+   "fullTitle": "SCORE11 Burning Should allow burning when unpaused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow admin to withdraw tokens sent to the contract",
+   "fullTitle": "SCORE11 Emergency Withdraw Should allow admin to withdraw tokens sent to the contract",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent non-admin from calling emergencyWithdraw",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent non-admin from calling emergencyWithdraw",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if token address is zero address",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if token address is zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if recipient address is zero address",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if recipient address is zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should revert if emergencyWithdraw amount exceeds balance",
+   "fullTitle": "SCORE11 Emergency Withdraw Should revert if emergencyWithdraw amount exceeds balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if amount is zero",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if amount is zero",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow emergencyWithdraw when paused ",
+   "fullTitle": "SCORE11 Emergency Withdraw Should allow emergencyWithdraw when paused ",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow default admin to assign roles",
+   "fullTitle": "SCORE11 Access Control Should allow default admin to assign roles",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent non-admin from assigning roles",
+   "fullTitle": "SCORE11 Access Control Should prevent non-admin from assigning roles",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ],
+ "failures": [],
+ "passes": [
+  {
+   "title": "Should set the correct name",
+   "fullTitle": "SCORE11 Deployment Should set the correct name",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the correct symbol",
+   "fullTitle": "SCORE11 Deployment Should set the correct symbol",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the default Admin address as the default admin",
+   "fullTitle": "SCORE11 Deployment Should set the default Admin address as the default admin",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the pauser address as the pauser",
+   "fullTitle": "SCORE11 Deployment Should set the pauser address as the pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the maxTotalSupply to the 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the maxTotalSupply to the 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the initial total supply to 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the initial total supply to 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should set the balance of the owner to 1 Billion",
+   "fullTitle": "SCORE11 Deployment Should set the balance of the owner to 1 Billion",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should pause and unpause the token",
+   "fullTitle": "SCORE11 Pausing Should pause and unpause the token",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 Pausing Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow pausing by new pauser",
+   "fullTitle": "SCORE11 Pausing Should allow pausing by new pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow pausing if role is revoked",
+   "fullTitle": "SCORE11 Pausing Should not allow pausing if role is revoked",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow unpausing by non-pauser",
+   "fullTitle": "SCORE11 Unpausing Should not allow unpausing by non-pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow unpausing by pauser",
+   "fullTitle": "SCORE11 Unpausing Should allow unpausing by pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow unpausing by new pauser",
+   "fullTitle": "SCORE11 Unpausing Should allow unpausing by new pauser",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow unpausing if role is revoked",
+   "fullTitle": "SCORE11 Unpausing Should not allow unpausing if role is revoked",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should approve spender to spend tokens",
+   "fullTitle": "SCORE11 Approve Should approve spender to spend tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow approval when paused",
+   "fullTitle": "SCORE11 Approve Should allow approval when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow approval to the zero address",
+   "fullTitle": "SCORE11 Approve Should not allow approval to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer tokens",
+   "fullTitle": "SCORE11 Transfer Should transfer tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow transfer when unpaused",
+   "fullTitle": "SCORE11 Transfer Should allow transfer when unpaused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers to the zero address",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers from the zero address",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers from the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when sender has insufficient balance",
+   "fullTitle": "SCORE11 Transfer Should not allow transfers when sender has insufficient balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer tokens from approved spender",
+   "fullTitle": "SCORE11 TransferFrom Should transfer tokens from approved spender",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers when paused",
+   "fullTitle": "SCORE11 TransferFrom Should not allow transfers when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow transfers to the zero address",
+   "fullTitle": "SCORE11 TransferFrom Should not allow transfers to the zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow token holders to burn their tokens",
+   "fullTitle": "SCORE11 Burning Should allow token holders to burn their tokens",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent burning more tokens than balance",
+   "fullTitle": "SCORE11 Burning Should prevent burning more tokens than balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should not allow burning when paused",
+   "fullTitle": "SCORE11 Burning Should not allow burning when paused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow burning when unpaused",
+   "fullTitle": "SCORE11 Burning Should allow burning when unpaused",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow admin to withdraw tokens sent to the contract",
+   "fullTitle": "SCORE11 Emergency Withdraw Should allow admin to withdraw tokens sent to the contract",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent non-admin from calling emergencyWithdraw",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent non-admin from calling emergencyWithdraw",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if token address is zero address",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if token address is zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if recipient address is zero address",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if recipient address is zero address",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should revert if emergencyWithdraw amount exceeds balance",
+   "fullTitle": "SCORE11 Emergency Withdraw Should revert if emergencyWithdraw amount exceeds balance",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent emergencyWithdraw if amount is zero",
+   "fullTitle": "SCORE11 Emergency Withdraw Should prevent emergencyWithdraw if amount is zero",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow emergencyWithdraw when paused ",
+   "fullTitle": "SCORE11 Emergency Withdraw Should allow emergencyWithdraw when paused ",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow default admin to assign roles",
+   "fullTitle": "SCORE11 Access Control Should allow default admin to assign roles",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should prevent non-admin from assigning roles",
+   "fullTitle": "SCORE11 Access Control Should prevent non-admin from assigning roles",
+   "file": "test/Score11.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ]
+}

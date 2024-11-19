@@ -1,0 +1,277 @@
+{
+ "contracts/mocks/erc20.sol": {
+  "12": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent non-admin from calling emergencyWithdraw",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if recipient address is zero address",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if amount is zero",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ]
+ },
+ "contracts/Score11.sol": {
+  "58": [
+   {
+    "title": "Should set the correct name",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "59": [
+   {
+    "title": "Should set the correct name",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "60": [
+   {
+    "title": "Should set the correct name",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "66": [
+   {
+    "title": "Should pause and unpause the token",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow transfers when paused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow pausing by new pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow pausing if role is revoked",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow unpausing by non-pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow unpausing by pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow unpausing by new pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow unpausing if role is revoked",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow approval when paused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow transfer when unpaused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow burning when paused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow burning when unpaused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "72": [
+   {
+    "title": "Should pause and unpause the token",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow unpausing by pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow unpausing by new pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow transfer when unpaused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow burning when unpaused",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "78": [],
+  "92": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if token address is zero address",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if recipient address is zero address",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if amount is zero",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "93": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if recipient address is zero address",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if amount is zero",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "94": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent emergencyWithdraw if amount is zero",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "96": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "97": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should revert if emergencyWithdraw amount exceeds balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "99": [
+   {
+    "title": "Should allow admin to withdraw tokens sent to the contract",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow emergencyWithdraw when paused ",
+    "file": "test/Score11.ts"
+   }
+  ],
+  "112": [
+   {
+    "title": "Should set the correct name",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow transfers when paused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow unpausing by pauser",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should transfer tokens",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow transfer when unpaused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow transfers when sender has insufficient balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should transfer tokens from approved spender",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow token holders to burn their tokens",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should prevent burning more tokens than balance",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should not allow burning when paused",
+    "file": "test/Score11.ts"
+   },
+   {
+    "title": "Should allow burning when unpaused",
+    "file": "test/Score11.ts"
+   }
+  ]
+ }
+}
